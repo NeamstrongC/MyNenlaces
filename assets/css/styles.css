@@ -1,0 +1,36 @@
+
+body{ 
+    color: beige;
+    margin:0;
+	padding: 0; 
+    background-size: 100%;
+    width: 100%;
+    background-image: url(../images/hd-pacman-qtm4064qk559tkc7.jpg);
+    background-repeat: no-repeat;
+}
+main{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+img.CEOn{
+    max-width: 400px;
+    max-height: 400px;
+}
+a{
+    background-color: black;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+ul li{
+    padding: 8px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: pink;
+}
