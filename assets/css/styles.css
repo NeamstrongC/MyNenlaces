@@ -1,9 +1,8 @@
-
 body{
     color: azure; 
     height: 100%;
     background-size: cover;
-    background-image: url(../images/hd-pacman.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
 }
 main{
@@ -11,19 +10,109 @@ main{
     flex-direction: column;
     display: flex;
 }
+h1{
+    color: wheat;
+   
+}
+h2{
+    text-decoration: underline;
+    background-color: white;
+    color: blue;
+   
+}
+nav{
+    margin-top: 20px;
+}
+nav a{
+    margin-top: 10px;
+    background-color: aquamarine;
+    color: purple;
+    font-size: 1.3em;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a.navv:hover{
+    color: black;
+    cursor: pointer;
+}
+li{
+    color: pink;
+}
+li a{
+    background-color: blue;
+    color: pink;
+
+}
+p{
+    color: wheat;
+    text-decoration: underline;
+    font-weight: bold;
+ 
+}
+a.Nenl{
+    font-weight: bold;
+    background-color: palevioletred;
+    text-decoration: underline;
+    color: blue;
+}
+a.Nenl:hover{
+    color: azure;
+}
+ul li{
+    padding: 4px;
+}
+footer{
+    margin-top: 10px;
+    background-color: palevioletred;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+ }
+ /*RESPONSIVE START*/
+
+@media screen and (max-width: 440px){
+    body{
+    color: azure; 
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images/hd-pacman-XR.jpg);
+    background-repeat: no-repeat;
+}   
+
+img{
+    width: 250px;
+    height: 250px;
+}
+h2{
+    text-decoration: underline;
+    color: blue;
+  
+}
+li a{
+    background-color: blue;
+    color: pink;
+}
+p{
+    text-decoration: underline;
+    font-weight: bold;
+}
 a{
     background-color: black;
     text-decoration: underline;
     color: aliceblue;
 }
 ul li{
-    padding: 8px;
+    padding: 4px;
 }
 footer{
     display: flex;
     justify-content: center;
-    font-size: 2em;
-    color: pink;
+    font-size: 1.4em;
+    background-color: black;
+    color: white;
+ }
 }
-
-
+  /*RESPONSIVE END*/
