@@ -1,6 +1,8 @@
+html{
+    min-height: 100vh;
+}
 body{
     color: azure; 
-    height: 100%;
     background-size: cover;
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
@@ -21,7 +23,7 @@ h2{
    
 }
 nav{
-    margin-top: 20px;
+    margin-top: 200px;
 }
 nav a{
     margin-top: 10px;
@@ -52,6 +54,7 @@ p{
  
 }
 a.Nenl{
+    font-size: 2.10em;
     font-weight: bold;
     background-color: palevioletred;
     text-decoration: underline;
@@ -64,8 +67,9 @@ ul li{
     padding: 4px;
 }
 footer{
-    margin-top: 10px;
-    background-color: palevioletred;
+    margin-top: 20%;
+    font-size: 2em;
+    background-color: black;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -73,18 +77,17 @@ footer{
  }
  /*RESPONSIVE START*/
 
-@media screen and (max-width: 440px){
-    body{
-    color: azure; 
-    height: 100%;
-    background-size: cover;
-    background-image: url(../images/hd-pacman-XR.jpg);
-    background-repeat: no-repeat;
+@media screen and (max-width: 572px){
+body{
+   color: azure; 
+   background-size: cover;
+   background-image: url(../images/hd-pacman-XR.jpg);
+   background-repeat: no-repeat;
 }   
 
 img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 h2{
     text-decoration: underline;
@@ -104,10 +107,16 @@ a{
     text-decoration: underline;
     color: aliceblue;
 }
+a.Nenl{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: blue;
+}
 ul li{
     padding: 4px;
 }
 footer{
+    margin-top: 20%;
     display: flex;
     justify-content: center;
     font-size: 1.4em;
