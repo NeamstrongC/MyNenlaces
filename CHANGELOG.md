@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## [1.1.2] - 2025-08-18
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   SEARCH CONSOLE TAG.
+
+### Modificado
+
+-   
+
+### Corregido
+
+-   TAMAÑO FULL DE PÁGINA.
+
+-   imágen de CEON.
+
+###  Por Corregir
+
+
+-   ETIQUETAS DE ANALITYCS.
+
+-   TAMAÑOS INDICADOS DE FUENTES.
+
+-   IMAGENES ENLACE DE REDES SOCIALES PNG.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+
 ## [1.1.2] - 2025-08-17
 
 -   ACTUALIZACION EN LINEA
