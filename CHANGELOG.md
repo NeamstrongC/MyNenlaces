@@ -4,6 +4,8 @@
 
 -   ACTUALIZACION EN LINEA
 
+-   TESTÉO EN GITHUB. comprobacion full. PRIVATE MOVE
+
 ### Añadido
 
 -   ARCHIVO README.md
@@ -17,6 +19,10 @@
 -   
 
 ###  Por Corregir
+
+-   ETIQUETAS DE ANALITYCS.
+
+-   TAMAÑOS INDICADOS DE FUENTES.
 
 -   IMAGENES ENLACE DE REDES SOCIALES PNG.
 
