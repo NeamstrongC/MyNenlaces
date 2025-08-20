@@ -1,7 +1,7 @@
 html{
     min-height: 100vh;
 }
-body{
+body#mm{
     color: azure; 
     background-size: cover;
     background-image: url(../images/background.jpg);
@@ -12,7 +12,7 @@ main{
     flex-direction: column;
     display: flex;
 }
-h1{
+h1.name{
     color: wheat;
    
 }
@@ -22,8 +22,15 @@ h2{
     color: blue;
    
 }
+li.imgrr{
+    list-style: none;
+}
+ul.rr{
+    display: flex;
+    justify-content: center;
+}
 nav{
-    margin-top: 200px;
+    margin-top: 5%;
 }
 nav a{
     margin-top: 10px;
@@ -47,7 +54,7 @@ li a{
     color: pink;
 
 }
-p{
+p.labor{
     color: wheat;
     text-decoration: underline;
     font-weight: bold;
@@ -56,9 +63,9 @@ p{
 a.Nenl{
     font-size: 2.10em;
     font-weight: bold;
-    background-color: palevioletred;
+    background-color: cornflowerblue;
     text-decoration: underline;
-    color: blue;
+    color: gainsboro;
 }
 a.Nenl:hover{
     color: azure;
@@ -67,7 +74,7 @@ ul li{
     padding: 4px;
 }
 footer{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 2em;
     background-color: black;
     font-weight: bold;
@@ -75,21 +82,142 @@ footer{
     justify-content: center;
     color: whitesmoke;
  }
- /*RESPONSIVE START*/
+
+
+ /*COOKIES-START*/
+
+
+.fondo-aviso-cookies{
+	display: none;
+	background: rgba(0,0,0,.20);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left: 0;
+}
+.fondo-aviso-cookies.activo{
+	display: block;
+}
+.aviso-cookies{
+	display: none;
+	background: #F2F3F4;
+	padding: 20px;
+	width: calc(100% - 40px);
+	max-width: 300px;
+	line-height: 150%;
+	border-radius: 10px;
+	border: 3px solid blue;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	padding-top: 55px;
+	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	text-align: center;
+}
+.aviso-cookies.activo{
+	display: block;
+}
+
+.aviso-cookies .galletag{
+	max-width: 100px;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+
+.aviso-cookies .titulog{
+    color: blue;
+	margin-bottom: 15px;
+}
+.aviso-cookies .parrafog{
+    font-size:  1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+	margin-bottom: 15px;
+}
+.aviso-cookies .botong{
+	width: 100%;
+	background: #595959;
+	border: none;
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	padding: 15px 20px;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.aviso-cookies .botong:hover{
+	background: black;
+}
+.aviso-cookies .enlaceg{
+    font-size: 1ems;
+	color: blue;
+	text-decoration: none;
+
+}
+
+.aviso-cookies .enlaceg:hover{
+	text-decoration: underline;
+}
+/*RESPONSIVE START*/
+
+@media screen and (max-width: 435px){
+	.aviso-cookies{
+	display: none;
+	background: #F2F3F4;
+	width: calc(100% - 40px);
+	max-width: 200px;
+	line-height: 150%;
+	border-radius: 10px;
+	border: 3px solid blue;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	text-align: center;
+   }
+   .aviso-cookies .galletag{
+    	top:-110px;    
+    }
+   b.mom{
+	padding: 2px;
+	text-decoration: underline;
+	border-radius: 4px;
+	color: white;
+	background-color: #444DDE;
+	font-size: 1.1em;
+}
+}
+
+ /*RESPONSIVE END*/
+
+ /*COOKIES-END*/
+
+
+ /*RESPONSIVE*/
 
 @media screen and (max-width: 572px){
-body{
+body#mm{
    color: azure; 
    background-size: cover;
    background-image: url(../images/hd-pacman-XR.jpg);
    background-repeat: no-repeat;
-}   
-
-img{
+}
+img.CEOn{
     width: 200px;
     height: 200px;
 }
-h2{
+h2.enl{
     text-decoration: underline;
     color: blue;
   
@@ -98,11 +226,11 @@ li a{
     background-color: blue;
     color: pink;
 }
-p{
+p.labor{
     text-decoration: underline;
     font-weight: bold;
 }
-a{
+a.Nenl{
     background-color: black;
     text-decoration: underline;
     color: aliceblue;
@@ -110,7 +238,11 @@ a{
 a.Nenl{
     font-size: 1.5em;
     text-decoration: underline;
-    color: blue;
+    color: white;
+}
+img.iconr{
+    width: 25px;
+    height: 25px;
 }
 ul li{
     padding: 4px;
