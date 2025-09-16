@@ -1,16 +1,56 @@
 # CHANGELOG
 
-## [1.1.3] - 2025-08-20
+## [1.2.1] - 2025-09-16
 
 -   ACTUALIZACION EN LINEA
 
 ### Añadido
 
--   COOKIES.
+-   
 
 ### Modificado
 
--   READ.ME
+-
+
+### Corregido
+
+-   FOOTER (N DE COLOMBIA) EN DISEÑO RESPONSIVO PARTE BAJA DE T&C.
+
+-   SECCIÓN (LEGAL). política de privacidad (t&c N).
+
+-   TAMAÑOS DE FUENTES.
+
+###  Por Corregir
+
+-   INTERCONÉXION N.
+
+-   FIJAR FOOTER PARTE INFERIOR.
+
+-   AGREGAR ICONOS DE: Upwork, Experiencias.
+
+-   ROBOTS.txt (SEO).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
+
+## [1.1.3] - 2025-08-28
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   
+
+### Modificado
+
+-
 
 ### Corregido
 
@@ -18,7 +58,7 @@
 
 ###  Por Corregir
 
--   complementar tags & METAS en all pages.
+-   COMPLEMENTAR ICONOS DE REDESA3 PNG.
 
 -   ROBOTS.txt (SEO).
 
@@ -30,7 +70,80 @@
 
 -   TAMAÑO DE IMÁGENES. PX
 
--   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS.
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
+## [1.1.3] - 2025-08-25
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   
+
+### Modificado
+
+-
+
+### Corregido
+
+-   
+
+###  Por Corregir
+
+-   COMPLEMENTAR ICONOS DE REDESA3 PNG.
+
+-   ROBOTS.txt (SEO).
+
+-   SECCIÓN (LEGAL).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑOS DE FUENTES.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
+## [1.1.3] - 2025-08-20
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   COOKIES.
+
+### Modificado
+
+-   MODIFICACIÓN DE ETIQUETAS Y SINCRONIZACIÓN EN ALL PAGES.
+
+-   READ.ME
+
+-   LICENSE GNU GPL 3.0
+
+### Corregido
+
+-   
+
+###  Por Corregir
+
+-   ROBOTS.txt (SEO).
+
+-   SECCIÓN (LEGAL).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑOS DE FUENTES.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
 
 ## [1.1.3] - 2025-08-19
 
