@@ -1,5 +1,42 @@
 # CHANGELOG
 
+## [1.2.1] - 2025-09-17
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   
+
+### Modificado
+
+-
+
+### Corregido
+
+-   
+
+###  Por Corregir
+
+-   READ.ME
+
+-   INTERCONÉXION N.
+
+-   FIJAR FOOTER PARTE INFERIOR.
+
+-   AGREGAR ICONOS DE: Upwork, Experiencias.
+
+-   ROBOTS.txt (SEO).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
 ## [1.2.1] - 2025-09-16
 
 -   ACTUALIZACION EN LINEA
@@ -38,7 +75,6 @@
 Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
 
 -   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
-
 
 ## [1.1.3] - 2025-08-28
 
