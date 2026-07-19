@@ -1,7 +1,64 @@
 /* GRACIAS DIOS, MAMÁ, PAPÁ Y TODAS LAS PERSONAS QUE HACEN ESTO POSIBLE COMO MIS MAYORES INVERSORES. Dios NOS BENDIGA. */
 
 /* ==========================================================================
-   1. CONFIGURACIÓN BASE Y LAYOUT
+   1. CONTROL DEL PRELOADER (INICIO DE PÁGINA)
+   ========================================================================== */
+
+/* Congela el scroll en el body mientras se muestra la pantalla de carga */
+body.loading-active {
+    overflow: hidden !important;
+    height: 100vh;
+}
+
+/* Pantalla completa que cubre el Servidor N al cargar */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0b0f19; /* Fondo oscuro elegante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999; /* Por encima de todo, incluyendo las cookies */
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+/* El spinner circular animado */
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-top: 5px solid #0070f3; /* Azul N */
+    border-radius: 50%;
+    animation: girarSpinner 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+/* Texto indicador inferior */
+.loading-text {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+@keyframes girarSpinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Desvanecimiento que ejecuta el script a los 600ms */
+#preloader.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* ==========================================================================
+   2. CONFIGURACIÓN BASE Y LAYOUT
    ========================================================================== */
 html, body {
     margin: 0;
@@ -35,7 +92,7 @@ main {
 }
 
 /* ==========================================================================
-   2. COMPONENTES Y TIPOGRAFÍA (VISTA DESKTOP/GENERAL)
+   3. COMPONENTES Y TIPOGRAFÍA (VISTA DESKTOP/GENERAL)
    ========================================================================== */
 h1.name {
     color: wheat;
@@ -141,43 +198,56 @@ footer {
     padding: 15px 0;
     color: pink;
 }
+
 /* ==========================================================================
-   3. SISTEMA DE COOKIES (POSICIONADO A LA IZQUIERDA)
+   4. SISTEMA DE COOKIES (POSICIONADO A LA IZQUIERDA CON ANIMACIÓN IN/OUT)
    ========================================================================== */
 .fondo-aviso-cookies {
-    display: none;
-    background: rgba(0, 0, 0, 0.40);
     position: fixed;
-    z-index: 99;
-    width: 100vw;
-    height: 100vh;
     top: 0;
     left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.40);
+    z-index: 9998; /* Justo debajo del preloader */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
+/* Clase inyectada por JS si no se han aceptado las cookies */
 .fondo-aviso-cookies.activo {
-    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
 .aviso-cookies {
-    display: none;
-    background: #F2F3F4;
-    padding: 45px 20px 20px 20px;
-    width: calc(100% - 40px);
-    max-width: 280px; /* Tamaño ideal para escritorio y pantallas medianas */
-    line-height: 150%;
-    border-radius: 10px;
-    border: 3px solid blue;
     position: fixed;
     bottom: 20px;
     left: 20px; /* Anclado firmemente a la izquierda */
-    z-index: 100;
+    background: #F2F3F4;
+    padding: 45px 20px 20px 20px;
+    width: calc(100% - 40px);
+    max-width: 280px; 
+    line-height: 150%;
+    border-radius: 10px;
+    border: 3px solid blue;
+    z-index: 9999;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
+    
+    /* Configuración para animación de subida fluida */
+    transform: translateY(150%);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.6s ease, visibility 0.6s ease;
 }
 
+/* Clase inyectada por JS si no se han aceptado las cookies */
 .aviso-cookies.activo {
-    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
 }
 
 .aviso-cookies .galletag {
@@ -228,8 +298,9 @@ footer {
 .aviso-cookies .enlaceg:hover {
     text-decoration: underline;
 }
+
 /* ==========================================================================
-   4. RESPONSIVE DESIGN (MEDIA QUERIES)
+   5. RESPONSIVE DESIGN (MEDIA QUERIES)
    ========================================================================== */
 
 /* Ajustes generales para Celulares estándar */
@@ -267,7 +338,6 @@ footer {
 /* Ajuste extremo para las pantallas más pequeñas del mercado (360px o menos) */
 @media screen and (max-width: 360px) {
     body#mm {
-        /* Cambia 'fondo-mini.jpg' por el nombre real de tu nueva imagen para pantallas pequeñas */
         background-image: url(../images/mini.jpg); 
     }
 
