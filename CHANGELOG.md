@@ -6,6 +6,16 @@
 
 ### Añadido
 
+-Sistema de Preloader Integrado
+
+-Control de Desplazamiento
+
+-Mecanismo de Respaldo de Seguridad
+
+-Migración de Almacenamiento de Cookies: Se eliminó la dependencia de localStorage para el control de consentimiento y se migró al uso nativo de document.cookie con alcance global (path=/). Esto unifica el consentimiento de cookies de la plataforma compartiendo el estado entre tu página principal (Allium_Ampeloprasum_var._Porrum-NofC) y esta interfaz de enlaces.
+
+-Refactorización de Animaciones en el Banner de Cookies:
+
 - **CSS:** Añadido soporte responsivo extremo mediante una nueva media query (`max-width: 360px`) para adaptar el diseño a los teléfonos más pequeños del mercado actual.
 
 - **CSS:** Añadido cambio dinámico de imagen de fondo (`fondo-mini.jpg`) exclusivo para dispositivos con pantallas ultra estrechas.
