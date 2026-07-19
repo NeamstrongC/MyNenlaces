@@ -18,11 +18,19 @@
     <!-- Corrección del tipo de icono -->
     <link rel="icon" type="image/x-icon" href="assets/images/yellowicoN.ico">
 </head>
-<body id="mm">
+<body id="mm" class="loading-active">
     <!-- Google Tag Manager (noscript) - Movido al inicio del body -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCJD2TQ6"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <!-- ==========================================================================
+       CONTENEDOR DEL PRELOADER
+       ========================================================================== -->
+    <div id="preloader">
+        <div class="spinner"></div>
+        <div class="loading-text">CARGANDO SERVIDOR N...</div>
+    </div>
 
 <div class="principal">
     <main>
@@ -74,6 +82,8 @@
 
 <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
 
+<!-- Dependencias y Lógica de Control Unificada -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript" src="assets/js/aviso-cookies.js"></script>
 </body>
 </html>
