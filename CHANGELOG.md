@@ -1,5 +1,56 @@
 # CHANGELOG
 
+## [2.0.1] - 2026-07-19
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+- **CSS:** Añadido soporte responsivo extremo mediante una nueva media query (`max-width: 360px`) para adaptar el diseño a los teléfonos más pequeños del mercado actual.
+
+- **CSS:** Añadido cambio dinámico de imagen de fondo (`fondo-mini.jpg`) exclusivo para dispositivos con pantallas ultra estrechas.
+
+- **CSS:** Añadido `object-fit: cover` a los iconos de redes sociales para prevenir deformaciones visuales.
+
+### Modificado
+
+- **CSS:** Reconfigurado el sistema de posicionamiento del aviso de cookies, moviéndolo y anclándolo estéticamente a la esquina inferior izquierda de la pantalla.
+
+- **CSS:** Optimizado el flujo de las Media Queries, estructurando las reglas bajo una metodología Mobile-First limpia y reduciendo la redundancia de código heredado.
+
+### Corregido
+
+- **CSS:** Corregido error de sintaxis en el tamaño de fuente del enlace de cookies (`1ems` cambiado a `1rem`).
+
+- **CSS:** Corregido error de propiedad sin unidad en la regla de fuentes de la navegación (`1.2` cambiado a `1.2em`).
+
+- **CSS:** Corregido selector erróneo para el efecto hover del enlace legal, vinculándolo correctamente a la clase `.navv`.
+
+- **CSS:** Eliminadas propiedades duplicadas y contradictorias en el id `body#mm` (`height` vs `min-height`) y en la clase `a.Nenl`.
+
+- **JS:** Corregido error crítico de sintaxis en la selección de elementos del DOM (`document. getElementById` corregido a `document.getElementById`).
+
+- **JS:** Solucionado riesgo de crash por variable no definida al inicializar de forma segura el arreglo `window.dataLayer`.
+
+###  Por Corregir
+
+-   INTERCONÉXION N.
+
+-   FIJAR FOOTER PARTE INFERIOR.
+
+-   AGREGAR ICONOS DE: Upwork, Experiencias.
+
+-   ROBOTS.txt (SEO).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
 ## [1.2.1] - 2025-09-17
 
 -   ACTUALIZACION EN LINEA
@@ -17,8 +68,6 @@
 -   
 
 ###  Por Corregir
-
--   READ.ME
 
 -   INTERCONÉXION N.
 
