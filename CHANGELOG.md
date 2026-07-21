@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## [2.0.1] - 2026-07-21
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   
+
+### Modificado
+
+-   
+
+### Corregido
+
+-   INTERCONÉXION N.
+
+-   CONTACT BOGOTÁ N WITH SERVER.
+
+###  Por Corregir
+
+-   FIJAR FOOTER PARTE INFERIOR.
+
+-   AGREGAR ICONOS DE: Upwork, Experiencias.
+
+-   ROBOTS.txt (SEO).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
 ## [2.0.1] - 2026-07-19
 
 -   ACTUALIZACION EN LINEA
@@ -43,8 +78,6 @@
 - **JS:** Solucionado riesgo de crash por variable no definida al inicializar de forma segura el arreglo `window.dataLayer`.
 
 ###  Por Corregir
-
--   INTERCONÉXION N.
 
 -   FIJAR FOOTER PARTE INFERIOR.
 
