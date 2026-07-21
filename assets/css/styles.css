@@ -95,14 +95,15 @@ main {
    3. COMPONENTES Y TIPOGRAFÍA (VISTA DESKTOP/GENERAL)
    ========================================================================== */
 h1.name {
-    color: wheat;
+    color: blue;
+    background-color: pink;
     text-align: center;
 }
 
 p.labor {
-    color: wheat;
+    color: blue;
+    background-color: pink;
     text-decoration: underline;
-    font-weight: bold;
     margin-top: 0;
 }
 
@@ -308,6 +309,19 @@ footer {
     body#mm {
         background-image: url(../images/hd-pacman-XR.jpg);
     }
+
+    h1.name {
+    color: white;
+    background-color: #0070f3;
+    text-align: center;
+}
+
+p.labor {
+    color:white ;
+    background-color: #0070f3;
+    text-decoration: underline;
+    margin-top: 0;
+}
 
     img.CEOn {
         width: 180px;
