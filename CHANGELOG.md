@@ -1,5 +1,38 @@
 # CHANGELOG
 
+## [2.0.1] - 2026-07-24
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   
+
+### Modificado
+
+-   
+
+### Corregido
+
+-   ETIQUETA GOOGLE TAG MANAGER PARA INSERTAR GA4.
+
+###  Por Corregir
+
+-   FIJAR FOOTER PARTE INFERIOR.
+
+-   AGREGAR ICONOS DE: Upwork, Experiencias.
+
+-   ROBOTS.txt (SEO).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+
 ## [2.0.1] - 2026-07-21
 
 -   ACTUALIZACION EN LINEA
