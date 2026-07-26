@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## [2.0.1] - 2026-07-25
+
+-   ACTUALIZACION EN LINEA
+
+### Añadido
+
+-   
+
+### Modificado
+
+-   
+
+### Corregido
+
+-   
+
+###  Por Corregir
+
+-   FIJAR FOOTER PARTE INFERIOR.
+
+-   AGREGAR ICONOS DE: Upwork, Experiencias.
+
+-   ROBOTS.txt (SEO).
+
+-   FUNCIÓN DE ANALITYCS EN TM.
+
+-   TAMAÑO DE IMÁGENES. PX
+
+-   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
+Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
+
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB n.
+
+-   ACTUALIZAR Y SINCRONIZAR BANNER DE CARGA PRELOADER SERVIDORES N: fuentes, tamaños. 
+
 ## [2.0.1] - 2026-07-24
 
 -   ACTUALIZACION EN LINEA
@@ -31,7 +66,7 @@
 -   DETALLES RESPONSIVOS Y DE VISUALIZACIÓN EN CIERTOS DISPOSITIVOS cookies:
 Surface pro 7, Ipad Air, Ipad pro, Asus zenbook fold
 
--   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB
+-   LISTA DE CONFIANZA, EMAILS ASOCIADOS DB n.
 
 ## [2.0.1] - 2026-07-21
 
